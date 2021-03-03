@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+.card {
+    position: relative;
+    background-color: white;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+    text-align: left;
+    padding: 1rem;
+    border-radius: 10px;
+    flex: 1;
+    margin: 1.1rem 0.7rem;
+    flex-basis: 240px;
+    height: 130px;
+    line-height: 35px;
+    font-family: "Lato", sans-serif;
+
+    .cardUp {
+        position: absolute;
+        color: white;
+        display: inline;
+        box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.14),
+        0 7px 10px -5px rgba(255, 152, 0, 0.4);
+        justify-content: center;
+        width: 5rem;
+        height: 5rem;
+        font-size: 1.5rem;
+        top: -1rem;
+        right: 1rem;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 5rem;
+        transition: all 0.5s ease;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            width: 2.5rem;
+        }
+    }
+    span {
+        display: block;
+        font-size: 2rem;
+    }
+}

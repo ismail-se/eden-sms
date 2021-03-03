@@ -1,0 +1,31 @@
+$gray: #b3c6d4;
+
+.messaging {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    .heading {
+        color: $gray;
+        padding: 1rem;
+    }
+    .main {
+        flex: 1;
+        form {
+            textarea {
+                width: 100%;
+                height: 15rem;
+                resize: none;
+                border: 1px solid #b3c6d4;
+                font-size: 1rem;
+            }
+            textarea:focus {
+                outline: none;
+            }
+            button {
+                font-size: 1rem !important;
+                width: 100%;
+                padding: 1rem;
+            }
+        }
+    }
+}

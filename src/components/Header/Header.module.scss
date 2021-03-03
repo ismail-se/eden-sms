@@ -1,0 +1,57 @@
+
+.header {
+    background-color: white;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+
+    .left {
+        display: flex;
+        align-items: center;
+
+        img {
+            width: 2rem;
+            margin-right: 1rem;
+        }
+
+        .school {
+            font-weight: 500;
+            font-size: 1.2rem;
+        }
+    }
+    .right {
+        display: flex;
+        align-items: center;
+
+        .name {
+            margin-right: 1rem;
+            font-size: 1.2rem;
+        }
+    }
+    .popup {
+        position: absolute;
+        background-color: white;
+        box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+        z-index: 1000;
+        right: 1rem;
+        top: 4rem;
+        border-radius: 10px;
+        
+        
+
+        ul {
+            list-style: none;
+            li {
+                padding: 1rem 4rem;
+            }
+            li:hover {
+                background-color: rgb(228, 228, 228);
+            }
+            hr {
+                border: 1px solid rgb(228, 228, 228);
+            }
+        }
+    }
+}

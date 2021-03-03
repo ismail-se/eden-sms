@@ -1,0 +1,13 @@
+.dashboard {
+  background-color: #eeeeee;
+  width: 100vw;
+  min-height: 100vh;
+}
+
+.dashboard .main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 1rem;
+}
+/*# sourceMappingURL=Dashboard.module.css.map */

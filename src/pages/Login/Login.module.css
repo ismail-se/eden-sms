@@ -1,0 +1,58 @@
+.login {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+
+.login .left, .login .right {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.login .left {
+  background-color: #3f51b5;
+}
+
+.login .left img {
+  width: 20rem;
+}
+
+.login .right h1 {
+  margin-bottom: 2rem;
+}
+
+.login .right .form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.login .right .form .input {
+  margin-bottom: 1rem;
+}
+
+.login .right .form .submit {
+  padding: .8rem;
+  font-size: 1rem;
+}
+/*# sourceMappingURL=Login.module.css.map */

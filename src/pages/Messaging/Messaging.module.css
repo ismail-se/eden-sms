@@ -1,0 +1,40 @@
+.messaging {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+}
+
+.messaging .heading {
+  color: #b3c6d4;
+  padding: 1rem;
+}
+
+.messaging .main {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.messaging .main form textarea {
+  width: 100%;
+  height: 15rem;
+  resize: none;
+  border: 1px solid #b3c6d4;
+  font-size: 1rem;
+}
+
+.messaging .main form textarea:focus {
+  outline: none;
+}
+
+.messaging .main form button {
+  font-size: 1rem !important;
+  width: 100%;
+  padding: 1rem;
+}
+/*# sourceMappingURL=Messaging.module.css.map */

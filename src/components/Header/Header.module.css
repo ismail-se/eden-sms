@@ -1,0 +1,76 @@
+.header {
+  background-color: white;
+  -webkit-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+          box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1rem 2rem;
+}
+
+.header .left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .left img {
+  width: 2rem;
+  margin-right: 1rem;
+}
+
+.header .left .school {
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+.header .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .right .name {
+  margin-right: 1rem;
+  font-size: 1.2rem;
+}
+
+.header .popup {
+  position: absolute;
+  background-color: white;
+  -webkit-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+          box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+  z-index: 1000;
+  right: 1rem;
+  top: 4rem;
+  border-radius: 10px;
+}
+
+.header .popup ul {
+  list-style: none;
+}
+
+.header .popup ul li {
+  padding: 1rem 4rem;
+}
+
+.header .popup ul li:hover {
+  background-color: #e4e4e4;
+}
+
+.header .popup ul hr {
+  border: 1px solid #e4e4e4;
+}
+/*# sourceMappingURL=Header.module.css.map */

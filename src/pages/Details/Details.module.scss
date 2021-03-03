@@ -1,0 +1,20 @@
+$gray: #b3c6d4;
+
+.details {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    .heading {
+        color: $gray;
+        padding: 1rem;
+    }
+    .main {
+        flex: 1;       
+    }
+    .cards {
+        display: flex;
+        a {
+            flex: 1;
+        }
+    }
+}
